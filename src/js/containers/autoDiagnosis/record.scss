@@ -1,0 +1,52 @@
+
+.auto-disagnosis-record{
+  background: #f2f2f2;
+  .show-record{
+    margin-left: .42rem;
+    border-left: 1px solid #ddd;
+
+  }
+}
+
+.a-d-box{
+
+  .disagnosis-time {
+    position: relative;
+    margin-right: .42rem;
+
+    h2 {
+
+      padding: .2rem;
+      text-align: center;
+      time {
+        display: inline-block;
+        height: .25rem;
+        padding: 0 .1rem;
+        border: 1px solid #897FE6;
+        line-height: .25rem;
+        border-radius: .25rem;
+        color: #897FE6;
+      }
+    }
+  }
+}
+.record-content{
+
+
+  .autodiagnosis-list {
+    li{
+      padding-left: .36rem;
+      text-align: left;
+      position: relative;
+      .icon{
+        position: absolute;
+        left: -.275rem;
+        top: -.13rem;
+      }
+    }
+    .disease-result {
+      display: block;
+      padding-top: .07rem;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.input-user-msg{
+  padding: 0 .25rem .1rem;
+  margin-bottom: .15rem;
+  background: #26202c;
+
+  .header-lh-3{
+    border-bottom: 1px solid #544c83;
+    line-height: .34rem;
+    color: #fff;
+  }
+  .input-body{
+    padding-top: .05rem;
+  }
+  // 输入框
+  .input-box{
+    padding-top: .12rem;
+    label{
+      display: inline-block;
+      min-height: .275rem;
+      padding: 0 .05rem;
+      line-height: .2rem;
+      color: #9B99DF;
+    }
+
+  }
+}

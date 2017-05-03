@@ -1,0 +1,71 @@
+.health-user{
+  height: 1.5rem;
+  padding-top: .27rem;
+  text-align: center;
+  background-image: -webkit-linear-gradient(to bottom, #3a215a, #3c3f74);
+  background-image: linear-gradient(to bottom, #3a215a, #3c3f74);
+  img{
+    width: .6rem;
+    height: .6rem;
+    border-radius: .6rem;
+  }
+  p{
+    padding-top: .02rem;
+    font-size: .18rem;
+    color: #fff;
+  }
+}
+.health-record{
+  margin-left: .4rem;
+  padding: .05rem .15rem 0 .34rem;
+  border-left: 1px solid #efefef;
+
+}
+.icon-more{
+  &:before{
+    content: '';
+    width: .24rem;
+    height: .24rem;
+    position: absolute;
+    top: 50%;
+    right: .1rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-image: url(../../../images/icon-more.png);
+    background-size: .24rem;
+  }
+
+}
+.health-record-box{
+  position: relative;
+  padding: .065rem 0 .065rem .075rem;
+  margin-top: .35rem;
+  background-color: #f2f2f2;
+  border-radius: .05rem;
+  time{
+    width: .5rem;
+    height: .25rem;
+    border: 1px solid #897FE6;
+    border-radius: .25rem;
+    line-height: .25rem;
+    text-align: center;
+    font-size: .12rem;
+    color: #897FE6;
+    position: absolute;
+    left: -.6rem;
+    top: 0;
+  }
+  .record-status{
+    min-height: .2rem;
+    padding-bottom: .04rem;
+    font-size: .12rem;
+    color: #999;
+  }
+  .health-verdict{
+    padding-right: .4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    color: #999;
+  }
+}

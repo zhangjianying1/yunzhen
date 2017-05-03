@@ -1,0 +1,44 @@
+.user-main{
+  padding-top: 1.11rem;
+  margin-bottom: .23rem;
+  .user-box{
+    width: -webkit-calc(100% - .3rem);
+    margin: 0 .15rem;
+    background: #26202c;
+    border-radius: .04rem;
+    box-shadow:0 2px 5px rgba(0,0,0,.1  );
+    position: relative;
+  }
+  .user-photo{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50%;
+    top: -.8rem;
+    -webkit-transform: translateX(-.5rem);
+    transform: translateX(-.5rem);
+  }
+  .user-msg{
+    padding: .22rem .16rem .03rem;
+    font-size: .18rem;
+    color: #fff;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: justify;
+    box-pack: justify;
+
+  }
+  .icon-editor{
+    width: .38rem;
+    height: .38rem;
+    background-image: url(../../../images/icon-editor.png);
+  }
+  .user-detail{
+    padding-bottom: .24rem;
+    padding-left: .16rem;
+    line-height: .31rem;
+    color: #fff;
+  }
+
+}

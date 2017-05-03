@@ -1,0 +1,63 @@
+.prefect{
+  background: #2e2836;
+  overflow: hidden;
+}
+.user-show{
+  height: 1rem;
+  background: #8a7fe7;
+  -webkit-box-align: center;
+  box-align: center;
+  .user-photo{
+    width: .6rem;
+    height: .6rem;
+    background-image: url(../../../images/icon-photo.png);
+    border-radius: .6rem;
+    background-size: .6rem;
+    overflow: hidden;
+    img{
+      width: .6rem;
+      height: .6rem;
+
+    }
+  }
+  .user-msg{
+    padding-left: .15rem;
+  }
+}
+
+
+
+
+
+.important{
+  display: inline-block;
+  color: #EF4972;
+  padding-right: .1rem;
+  position: relative;
+  top: .03rem;
+  margin-left: -.18rem;
+}
+
+// 以往疾病
+.textara-box{
+  margin-top: .25rem;
+  label{
+    line-height: .25rem;
+    color: #9B99DF;
+  }
+}
+
+.prefect-btn--sub{
+  padding: .2rem 0 .64rem;
+  background: #2e2836;
+  text-align: center;
+  overflow: hidden;
+  button{
+    width: .6rem;
+    height: .6rem;
+    background-image: url(../../../images/icon-sub.png);
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+  }
+}

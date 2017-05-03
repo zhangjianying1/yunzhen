@@ -1,0 +1,40 @@
+.logo{
+  height: 1.8rem;
+  padding-top: .5rem;
+  text-align: center;
+  img{
+    width: 1.12rem;
+    height: .99rem;
+  }
+}
+.service-content{
+  padding: .03rem 0 .03rem .15rem;
+  border: 1px solid #ddd;
+  background: #f2f2f2;
+  border-radius: .04rem;
+  line-height: .4rem;
+  color: #a1a1a1;
+}
+.service-tenet{
+  padding-top:1px;
+  line-height: .25rem;
+  color: #999;
+}
+.service-channel{
+  width: 100%;
+  position: fixed;
+  bottom: .28rem;
+  left: 0;
+  text-align: center;
+  line-height: .35rem;
+  .fs-12{
+    color: #bbb;
+  }
+}
+// 关于我们
+.about-us{
+  .understand-Y{
+    background-image: -webkit-linear-gradient(to right, #7773ff, #d086fa);
+    background-image: linear-gradient(to right, #7773ff, #d086fa);
+  }
+}

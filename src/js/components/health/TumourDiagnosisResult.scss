@@ -1,0 +1,107 @@
+.diagnosis-list{
+  padding-bottom: .22rem;
+  overflow:hidden;
+  li{
+    width: 33.33333%;
+    height: 1.69rem;
+    padding-top: .19rem;
+    text-align: center;
+    float: left;
+    color: #646464;
+
+    .font-english{
+      line-height: .1rem;
+      white-space: nowrap;
+    }
+    &:nth-child(2n){
+      padding-left: .14rem;
+      padding-right: .14rem;
+    }
+    &.active{
+      .tumour, .cervical{
+        background-color: #897fe6;
+      }
+      .liver{
+        background-color: #ef4972;
+      }
+      .lungs, .stomach{
+        background-color: #57d1c2;
+      }
+      .breast{
+        background-color: #f7a443;
+      }
+      .disease-result .icon-circal{
+        background: #f7a443;
+      }
+    }
+    .disease-result{
+
+      padding: .12rem 0 .08rem;
+      .icon-circal{
+        display: inline-block;
+        width: .1rem;
+        height: .1rem;
+        border-radius: .1rem;
+        background: transparent;
+      }
+      p{
+        color: #4c4f7f;
+      }
+
+    }
+
+  }
+  .icon{
+    width: .55rem;
+    height: .55rem;
+    margin-bottom: .06rem;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    border-radius: .43rem;
+    background-size: .43rem;
+    background-position: center;
+  }
+
+
+  .tumour{
+    background-image: url(../../../images/autodiagnosis/tumour.png);
+  }
+  .liver{
+    background-image: url(../../../images/autodiagnosis/liver.png);
+  }
+  .lungs{
+    background-image: url(../../../images/autodiagnosis/lungs.png);
+  }
+  .stomach{
+    background-image: url(../../../images/autodiagnosis/stomach.png);
+  }
+  .cervical{
+    background-image: url(../../../images/autodiagnosis/cervical.png);
+  }
+  .breast{
+    background-image: url(../../../images/autodiagnosis/breast.png);
+  }
+
+
+}
+
+// 没有自诊数据
+.diagnosis-nothing{
+  padding: .3rem 0 .3rem;
+  text-align: center;
+  .icon-diagnosis-nothing{
+    width: 1.2rem;
+    height: 1.17rem;
+    background-image: url(../../../images/autodiagnosis/diagnosis-nothing.png);
+  }
+  p{
+    margin-top: .16rem;
+  }
+}
+
+.prompt-risk{
+  display: -webkit-box;
+  display: box;
+  padding: 0 .1rem;
+  font-size: .1rem;
+}

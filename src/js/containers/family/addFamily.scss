@@ -1,0 +1,29 @@
+.add-tit{
+  padding: .12rem 0 .18rem;
+  color: #D7CCFF
+}
+.family-list{
+
+  overflow:hidden;
+  div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    .icon-add-family{
+      display: inline-block;
+      width: .6rem;
+      height: .6rem;
+      background-color: #26202c;
+      background-image: url(../../../images/icon-add-family.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: .25rem;
+      border-radius: .6rem;
+    }
+    p{
+      padding: .02rem 0 .22rem;
+      font-size: .15rem;
+      color: #9B99DF
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.about{
+  .a-Y-logo{
+    height: 1.27rem;
+    background-color: #fff;
+    background-image: url(../../../images/aboutYUNZHEN/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2.29rem .475rem;
+  }
+  .understand-Y{
+    height: 1rem;
+    padding-top: .275rem;
+    background: #8a7f99;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    strong{
+      font-size: .2rem;
+    }
+    .icon-and{
+      width: .45rem;
+      height: .45rem;
+      position: absolute;
+      bottom: -.225rem;
+      right: .3rem;
+      background-image: url(../../../images/aboutYUNZHEN/pic_jia.png);
+    }
+  }
+  .function-Y{
+    padding-top: .425rem;
+    color: #6e6e6e;
+    text-align: center;
+    h3{
+      font-size: .18rem;
+    }
+    img{
+      width: 1.92rem;
+      margin-top: .21rem
+    }
+  }
+  .des{
+    padding: .25rem .3rem .15rem;
+    font-size: .15rem;
+    color: #6e6e6e;
+    p{
+      line-height: .25rem;
+      padding-bottom: .1rem;
+    }
+  }
+}

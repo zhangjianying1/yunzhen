@@ -1,0 +1,120 @@
+.select-box{
+  height: .6rem;
+  background: #4b90db;
+  -webkit-box-align: center;
+  box-align: center;
+  label{
+    margin-right: .14rem;
+    color: #fff;
+    font-size: .18rem;
+  }
+}
+.c-select{
+  height: .37rem;
+  line-height: .37rem;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: .04rem;
+  background-clip: content-box;
+  overflow: hidden;
+  .c-select-tit{
+    padding-left: .16rem;
+    font-size: .16rem;
+  }
+  .c-select-dorp{
+    float: right;
+    width: .35rem;
+    height: .35rem;
+    background-color: #f2f2f2;
+    background-image: url(../../../images/icon-select.png);
+    background-size: .25rem;
+    background-position: center;
+    background-repeate: no-repeat;
+  }
+}
+
+// 健康档案
+.health-archive{
+  padding-bottom: .13rem;
+  margin-top: .1rem;
+  background: #fff;
+  .list-one{
+    line-height: .5rem;
+    color: #999;
+    border-bottom: 1px solid #e0e0e0;
+    .c-999{
+      padding-left: .22rem;
+    }
+  }
+}
+.header-lh-45{
+  display: -webkit-box;
+  display: box;
+  height: .45rem;
+  border-bottom: 1px solid #f0f0f0;
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  color: #4b90db;
+}
+.icon-blue-editor{
+  width: .25rem;
+  height: .25rem;
+  background-image: url(../../../images/icon-blue-editor.png);
+  font-size: 0;
+}
+
+.nofound{
+  padding: .47rem 0 .44rem;
+  text-align: center;
+  a{
+    text-align: center;
+
+    color: #7D718E;
+  }
+}
+.icon-nofound{
+  display: inline-block;
+  width: 1.33rem;
+  height: .815rem;
+  background-image: url(../../../images/icon-nofound.png);
+  background-color: #f90;
+}
+
+//上传图片
+.upload-img{
+  margin-top:.1rem;
+  background: #fff;
+
+  .header-lh-45{
+    margin: 0 .2rem;
+  }
+}
+.upload-img-box{
+
+  width: 33.33333%;
+  float: left;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  box-align: center;
+  .upload-tit{
+    height: .45rem;
+    line-height: .45rem;
+    text-algin: center;
+  }
+  .upload-img-btn{
+    width: .82rem;
+    height: .82rem;
+    border: 1px solid #ddd;
+    border-radius: .04rem;
+    background-image: url(../../../images/icon-upload-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

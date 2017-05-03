@@ -1,0 +1,11 @@
+// 诊断结果图像示意
+.com-show-diagnosis{
+  position: relative;
+  overflow: hidden;
+  img{
+    position: absolute;
+    &:first-child{
+      position: rlative;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/* 推广记录 and 活动名称*/
+
+.activity-name-list{
+  box-shadow: 0 0 1px rgba(7 , 0 , 2 , .12);
+  dt{
+    height: .34rem;
+    border-top: 1px solid #d2d2d2;
+    background: #fff;
+    box-shadow: 0 0 1px rgba(7 , 0 , 2 , .12);
+  }
+  dd.column-box{
+    height: .5rem;
+    padding: 0 .15rem;
+  }
+  dd.show-time{
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .user-des img{
+    width: .3rem;
+    height: .3rem;
+    border-radius: .15rem;
+  }
+}

@@ -1,0 +1,50 @@
+.gender-radio{
+  color: #7D718E;
+
+  div{
+    margin-right: .5rem;
+  }
+
+  i{
+    width: .3rem;
+    height: .3rem;
+    margin-right: .05rem;
+  }
+}
+
+.icon-man-default{
+  background-image: url('../../../images/icon-man-default.png');
+}
+.icon-man-active{
+  background-image: url('../../../images/icon-man-active.png');
+}
+.icon-woman-default{
+  background-image: url('../../../images/icon-woman-default.png');
+}
+.icon-woman-active{
+  background-image: url('../../../images/icon-woman-active.png');
+}
+
+.radio div{
+  display: -webkit-box;
+  display: box;
+  height: .2rem;
+  margin-right: .25rem;
+  -webkit-box-align: center;
+  box-align: center;
+  color: #7D718E;
+
+}
+.radio-default{
+  display: block;
+  width: .14rem;
+  height: .14rem;
+  margin-right: .05rem;
+  border: 2px solid #7b7287;
+  border-radius: .14rem;
+}
+.radio-active{
+  @extend .radio-default;
+  border: 2px solid #ef4971;
+  background: #ef4971;
+}

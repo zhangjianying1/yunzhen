@@ -1,0 +1,31 @@
+.com-body-detail{
+  .body-detail{
+    height: .8rem;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-align: center;
+    box-align: center;
+    text-align: center;
+    font-size: .13rem;
+    p{
+      margin-bottom: .03rem;
+    }
+  }
+  .user-diagnosis{
+    margin: 0 .15rem;
+    background: #f2f2f2;
+
+    border-radius: .04rem;
+    overflow: hidden;
+  }
+
+
+  .header-tit{
+    height: .44rem;
+    padding: 0 .05rem;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: justify;
+    box-pack: justify;
+  }
+}

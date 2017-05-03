@@ -1,0 +1,98 @@
+.auto-diagnosis{
+  overflow: hidden;
+  .header-lh-3{
+    padding-left: .15rem;
+    margin-bottom: .035rem;
+    line-height: .3rem;
+    color: #fff;
+    background: #2e2836;
+  }
+  .self-base-content{
+    padding: 0 .25rem;
+  }
+  .self-user-msg{
+    padding: .1rem .05rem .12rem .05rem;
+    border-bottom: 1px solid #47407E;
+    &:nth-last-child(1){
+      border: none;
+    }
+
+  }
+  // 输入框
+  .input-box{
+    margin-top: .12rem;
+    label{
+      display: inline-block;
+      min-height: .275rem;
+      padding: 0 .05rem;
+      line-height: .2rem;
+      color: #9B99DF;
+    }
+
+  }
+  // 横向输入框
+  .row-input{
+    position: relative;
+
+    label{
+      border-right: 1px solid #bbb;
+      height: .24rem;
+      padding: 0 .07rem 0 .1rem;
+      line-height: .28rem;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      color: #9B99DF;
+
+    }
+    input{
+      padding-left: 1rem !important;
+    }
+  }
+  .self-radio{
+    margin: .05rem 0 .03rem;
+    .radio{
+      overflow: hidden;
+      display: block;
+      div{
+        float: left;
+      }
+    }
+  }
+  .textarea{
+    width: 100%;
+    height: 1rem;
+    padding: .09rem;
+    border: none;
+    border-radius: .04rem;
+    font-size: .15rem;
+    color: #3C3F74;
+    resize: none;
+  }
+  .textarea-tips{
+    padding: .03rem .1rem 0 0;
+    font-size: .12rem;
+
+  }
+
+
+  .sub-button{
+    display: -webkit-box;
+    display: box;
+    height: 1.25rem;
+    padding: 0 .29rem;
+    background: #2e2836;
+    -webkit-box-align: center;
+    box-align: center;
+    .btn-60{
+      margin-top: 0;
+    }
+  }
+
+}
+
+
+
+
+

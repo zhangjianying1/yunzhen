@@ -1,0 +1,40 @@
+.family-more{
+  height: .6rem;
+  padding: 0 .15rem;
+  background-color: #897fe6;
+
+  .icon-more{
+    height: 100%;
+    padding-right: .07rem;
+    -webkit-box-align: center;
+    box-align: center;
+    color: #fff;
+    background-image: url(../../../images/icon-white-more.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: .24rem;
+  }
+  .icon-love{
+    width: .24rem;
+    height: .24rem;
+    margin-right: .16rem;
+    background-image: url(../../../images/icon-love.png);
+  }
+}
+.family-name{
+  padding: .26rem 0 .1rem .15rem;
+  font-size: .18rem;
+  color: #fff;
+  .icon{
+    width: .3rem;
+    height: .3rem;
+    margin-right: .1rem;
+    vertical-align: text-bottom;
+  }
+  .icon-family-woman{
+    background-image: url(../../../images/icon-family-woman.png);
+  }
+  .icon-family-man{
+    background-image: url(../../../images/icon-family-man.png);
+  }
+}

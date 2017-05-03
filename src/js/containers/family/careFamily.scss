@@ -1,0 +1,125 @@
+.care-family{
+  background: #f2f2f2;
+}
+.care-header{
+  height: 1.5rem;
+  padding-top: .18rem;
+  background-image: -webkit-linear-gradient(to bottom, #3a215a, #3c3f74);
+  background-image: -webkit-gradient(linear, 0 50%, 100% 50%,  from(#3a215a), to(#3c3f74));
+  background-image: linear-gradient(to bottom, #3a215a, #3c3f74);
+  text-align: center;
+  position: relative;
+  .icon-care{
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    background-image: url(../../../images/icon-care.png);
+  }
+  h2{
+    padding-top: .08rem;
+    font-size: .18rem;
+    color: #fff;
+  }
+  .add-family{
+    width: .44rem;
+    height: .44rem;
+    background-color: #ef4972;
+    border-radius: .44rem;
+    position: absolute;
+    bottom: -.22rem;
+    right: .25rem;
+    background-image: url(../../../images/icon-add.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: .25rem;
+    font-size: 0;
+  }
+}
+.family-information{
+  padding: 0 .2rem .1rem .2rem;
+  margin-top: .15rem;
+  background: #fff;
+  &:first-child{
+    margin-top:0;
+    padding-top: .39rem;
+  }
+  .infor-name{
+    display: -webkit-box;
+    display: box;
+    height: .47rem;
+    border-bottom: 1px solid #efefef;
+    -webkit-box-align: center;
+    box-align: center;
+    -webkit-box-pack: justify;
+    box-pack: justify;
+    font-size: .18rem;
+    color: #897FE6;
+  }
+  .infor-control{
+    display: -webkit-box;
+    display: box;
+    .icon{
+      width: .25rem;
+      height: .25rem;
+      margin: 0 .14rem;
+      font-size: 0;
+    }
+    .icon-del{
+      background: none;
+      border: none;
+      background-image: url(../../../images/icon-infor-del.png);
+      background-size: .25rem;
+    }
+    .icon-editor{
+      background-image: url(../../../images/icon-infor-editor.png);
+
+    }
+    .icon-follow{
+      background-image: url(../../../images/icon-follow.png);
+    }
+    .icon-not-follow{
+      background-image: url(../../../images/icon-not-follow.png);
+    }
+  }
+  .display-box{
+    border-bottom: 1px solid #efefef;
+  }
+  .infor-box{
+    display: -webkit-box;
+    display: box;
+    width: 100%;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    min-height: .45rem;
+    padding: .12rem 0;
+    line-height: .2rem;
+    font-size:  .15rem;
+    label{
+      padding-right: .1rem;
+      color: #3c3f74;
+    }
+    div{
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      color: #646464;
+    }
+  }
+  .go-detail{
+    padding: .26rem 0 .05rem;
+  }
+  .btn-bor-43{
+    width: 2.3rem;
+    margin: 0 auto;
+    line-height: .43rem;
+    text-align: center;
+    border: 1px solid  #EF4972;
+    border-radius: .43rem;
+    color: #EF4972;
+    font-size: .2rem;
+    &.disabled{
+      border-color: #ddd;
+      color: #ddd;
+    }
+  }
+}
+

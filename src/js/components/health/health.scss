@@ -1,0 +1,56 @@
+
+/*
+  诊断结果
+*/
+.user-diagnosis{
+  margin: 0 .15rem;
+  background: #f2f2f2;
+  border-radius: .08rem;
+  background-clip: content-box;
+  overflow: hidden;
+
+}
+.health{
+  padding: 0 .1rem;
+  background: #fff;
+  &:nth-of-type(2){
+    margin-top: .1rem;
+  }
+}
+.content-box-p10{
+  padding: 0 .1rem;
+}
+.mt-22{
+  margin-top: .225rem;
+}
+
+.header-lh43{
+  padding-left: .05rem;
+  line-height: .43rem;
+  font-size: .16rem;
+  color: #4b90db;
+}
+
+
+
+.diagnosis-detail{
+  line-height: .2rem;
+  padding: .2rem .05rem .35rem;
+}
+
+// 诊断结果
+.diagnosis-result{
+  margin-top: .15rem;
+  dt{
+    height: .28rem;
+    line-height: .28rem;
+    font-size: .16rem;
+    color: #fff;
+    text-align: center;
+    background-image: -webkit-linear-gradient(to right, #7673ff, #cf85fa);
+    background-image: -webkit-gradient(linear, 0 50%, 100% 50%, from(#7673ff), to(#cf85fa));
+    background-image: linear-gradient(to right, #7673ff, #cf85fa);
+  }
+
+}
+

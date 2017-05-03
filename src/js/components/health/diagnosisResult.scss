@@ -1,0 +1,101 @@
+
+.autodiagnosis-list{
+  padding: .2rem 0 .3rem;
+  li{
+    padding-bottom: .27rem;
+    text-align: center;
+    &.disabled .icon{
+      background-color: #ddd;
+    }
+  }
+  .icon{
+    width: .55rem;
+    height: .55rem;
+    margin-bottom: .06rem;
+    background-repeat: no-repeat;
+    border-radius: .43rem;
+    background-size: .43rem;
+    background-position: center;
+  }
+  .system-name{
+    padding-top: .02rem;
+    line-height: .14rem;
+    color: #646464;
+  }
+
+  .icon-breath{
+    background-color: #897fe6;
+    background-image: url(../../../images/autodiagnosis/breath.png);
+  }
+
+  .icon-loop{
+    background-color: #57D1C2;
+    background-image: url(../../../images/autodiagnosis/loop.png);
+  }
+  .icon-digestive{
+    background-color: #F7A443;
+
+    background-image: url(../../../images/autodiagnosis/digestive.png);
+  }
+  .icon-urinary{
+    background-color: #ED4C74;
+    background-image: url(../../../images/autodiagnosis/urinary.png);
+  }
+  .icon-immune{
+
+    background-color: #ED4C74;
+    background-image: url(../../../images/autodiagnosis/immune.png);
+  }
+  .icon-metabolism{
+    background-color: #897FE6;
+
+    background-image: url(../../../images/autodiagnosis/metabolism.png);
+  }
+  .icon-nervous{
+    background-color: #57D1C2;
+
+    background-image: url(../../../images/autodiagnosis/nervous.png);
+  }
+  .icon-locomotor{
+    background-color: #F7A443;
+    background-image: url(../../../images/autodiagnosis/locomotor.png);
+  }
+  .icon-sense{
+    background-color: #897FE6;
+    background-image: url(../../../images/autodiagnosis/sense.png);
+  }
+  .disease-result{
+    display: -webkit-box;
+    display: box;
+
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-align: center;
+    box-align: center;
+    padding-top: .14rem;
+    line-height: .23rem;
+    color: #EF3965;
+    .show-result{
+      diplay: inline-block;
+    }
+    p{
+      padding-left: .1rem;
+      text-align: left;
+      position: relative;
+      &:before{
+        content: '';
+        display: inline-block;
+        width: .06rem;
+        height: .06rem;
+        background: #EF3965;
+        border-radius: .06rem;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+}

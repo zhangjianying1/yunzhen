@@ -1,0 +1,202 @@
+.not-scroll-main{
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+
+  .btn-60{
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+  }
+}
+.auto-diagnosis-nav{
+  overflow-y: scroll;
+  -webkit-overflow-scrolling : touch;
+  background: #2e2735;
+  height: 100%;
+}
+.nav-box{
+  background: #2e2735;
+  &:last-child{
+    margin-bottom: .7rem;
+  }
+  .nav-h{
+
+    // nav 展开
+    &.active{
+      .nav-h-content{
+        border: none;
+      }
+      .icon-more{
+        transition: all .3s;
+
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    }
+    .nav-h-content{
+      display: -webkit-box;
+      display: box;
+      height: .75rem;
+      border-bottom: 1px solid #47407E;
+      margin: 0 .15rem;
+      -webkit-box-pack: center;
+      box-pack: center;
+      -webkit-box-align: center;
+      box-align: center;
+      .icon-tit{
+        display: inline-block;
+        width: .43rem;
+        height: .43rem;
+        background-size: cover;
+        &.icon-breath{
+          background-image: url(../../../images/autodiagnosis/nav-breath.png);
+
+        }
+        &.icon-loop{
+          background-image: url(../../../images/autodiagnosis/nav-loop.png);
+
+        }
+        &.icon-urinary{
+          background-image: url(../../../images/autodiagnosis/nav-urinary.png);
+
+        }
+        &.icon-digest{
+          background-image: url(../../../images/autodiagnosis/nav-stomach.png);
+
+        }
+        &.icon-blood{
+          background-image: url(../../../images/autodiagnosis/nav-blood.png);
+
+        }
+        &.icon-nervous{
+          background-image: url(../../../images/autodiagnosis/nav-nervous.png);
+
+        }
+        &.icon-metabolism{
+          background-image: url(../../../images/autodiagnosis/nav-metabolism.png);
+
+        }
+        &.icon-locomotor{
+          background-image: url(../../../images/autodiagnosis/nav-locomotor.png);
+
+        }
+      }
+      h2{
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        padding-left: .2rem;
+        font-size: .18rem;
+        color: #D7CCFF;
+        .font-english{
+          display: block;
+          font-size: .15rem;
+        }
+      }
+      .icon{
+        display: inline-block;
+        width: .24rem;
+        height: .24rem;
+        margin-right: .06rem;
+        &.icon-more{
+          background-image: url(../../../images/autodiagnosis/icon-close.png);
+        }
+      }
+    }
+
+
+  }
+  .nav-b{
+    display: none;
+    background: #241f2a;
+    .bor-content{
+      margin: 0 .14rem;
+      padding-bottom: .2rem;
+      border-bottom: 1px dashed #47407E;
+      &:nth-last-child(1){
+        border: none;
+      }
+    }
+  }
+
+}
+
+.tab-radio{
+  margin-top: -.02rem;
+  .tab-radio-header{
+    display: -webkit-box;
+    display: box;
+    -webkit-box-align: top;
+    box-align: top;
+    & > div{
+      margin-right: .3rem;
+    }
+  }
+  .radio-label{
+    width: 1rem;
+    padding: .18rem .35rem 0 0;
+    margin: 0 !important;
+    color: #D7CCFF;
+    font-size: .16rem;
+    text-align: center;
+  }
+
+  .tab-radio-body{
+    padding: .06rem 0 0 .7rem;
+  }
+}
+
+
+
+// 特殊的输入框
+.small-input-border{
+  display: -webkit-box;
+  display: box;
+  padding: .18rem 0 0 .12rem;
+  font-size: .15rem;
+  color: #9B99DF;
+
+  input{
+
+    width: .5rem;
+    padding-left: .04rem;
+    padding: .03rem .04rem;
+    border: none;
+    border-bottom: 1px solid #9B99DF;
+    line-height: .2rem;
+    background: none;
+    font-size: .15rem;
+    color: #7D718E;
+  }
+}
+// 特殊的输入框
+.big-input-border{
+  display: -webkit-box;
+  display: box;
+  padding: .18rem 0 0 .12rem;
+  color: #D7CCFF;
+  font-size: .15rem;
+  .input-label{
+
+    width: 1rem;
+    padding-right: .3rem;
+    text-align: center;
+  }
+  div:last-child{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+  }
+  input{
+    width: 100%;
+    padding: .03rem .04rem;
+    border: none;
+    border-bottom: 1px solid #9B99DF;
+    line-height: .2rem;
+    background: none;
+    font-size: .12rem;
+    color: #7D718E;
+  }
+}

@@ -1,0 +1,60 @@
+.upload-mask{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+}
+.upload-pupup{
+  width: 90%;
+  background: #fff;
+  border-radius: .05rem;
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  dt{
+    margin: 0 .2rem;
+    border-bottom: 1px solid #ddd;
+    line-height: .46rem;
+    font-size: .18rem;
+    color: #897FE6;
+    text-align: center;
+  }
+  dd{
+    display: -webkit-box;
+    display: box;
+    padding: .33rem .5rem .43rem;
+    -webkit-box-pack: justify;
+    box-pack: justify;
+  }
+  .select-btn{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    input[type='file']{
+      position: absolute;
+      width: .59rem;
+      height: 100%;
+      left:0;
+      top:0;
+      font-size: .8rem;
+      opacity: 0;
+    }
+    .icon{
+      display: block;
+      width: .59rem;
+      height: .59rem;
+      margin-bottom: .2rem;
+    }
+    .icon-select-camera{
+      background-image: url(../../../images/icon-select-camera.png);
+    }
+    .icon-select-file{
+      background-image: url(../../../images/icon-select-file.png);
+    }
+    .icon-select-image{
+      background-image: url(../../../images/icon-select-image.png);
+    }
+  }
+}

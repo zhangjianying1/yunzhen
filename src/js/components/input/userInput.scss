@@ -1,0 +1,81 @@
+.prefect-bg{
+  background: #26202c;
+}
+.user-show{
+  height: 1rem;
+  background: #8a7fe7;
+  -webkit-box-align: center;
+  box-align: center;
+  .user-photo{
+    width: .6rem;
+    height: .6rem;
+    background-image: url(../../../images/icon-photo.png);
+    border-radius: .6rem;
+  }
+  .user-msg{
+    padding-left: .15rem;
+  }
+}
+.input-user-msg{
+  .header-lh-3{
+    padding-left: .15rem;
+    line-height: .3rem;
+    color: #fff;
+    background: #2e2836;
+  }
+}
+.input-body{
+  padding: 0 .25rem .17rem;
+
+}
+// 输入框
+.input-box{
+  padding-top: .1rem;
+  label{
+    line-height: .3rem;
+    color: #9B99DF;
+  }
+
+}
+
+
+.important{
+  display: inline-block;
+  color: #EF4972;
+  padding-left: .1rem;
+  position: relative;
+  top: .03rem;
+}
+// 年龄血型选择
+.input-radio{
+
+  label{
+    display: block;
+    color: #9B99DF;
+    line-height: .53rem;
+  }
+}
+// 以往疾病
+.textara-box{
+  margin-top: .25rem;
+  label{
+    line-height: .25rem;
+    color: #9B99DF;
+  }
+}
+.bg-f2f2f2{
+  background: #f2f2f2;
+}
+.prefect-btn--sub{
+  padding: .2rem 0 .64rem;
+  background: #2e2836;
+  text-align: center;
+  button{
+    width: .6rem;
+    height: .6rem;
+    background-image: url(../../../images/icon-sub.png);
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+  }
+}

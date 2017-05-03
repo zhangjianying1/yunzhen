@@ -1,0 +1,157 @@
+.teach{
+  padding: .4rem 0 .14rem;
+  text-align: center;
+  h2{
+    font-size: .22rem;
+  }
+  em{
+    font-size: .18rem;
+  }
+  img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: .25rem 0 .295rem;
+    border-radius: 1.4rem;
+  }
+  .voide-btn{
+    display: inline-block;
+    width: 2.6rem;
+    height: .39rem;
+    padding-left: .42rem;
+    line-height: .39rem;
+    font-size: .13rem;
+    color: #fff;
+    border: none;
+    background-color: #21cf84;
+    border: 1px solid #979797;
+    border-radius: .12rem;
+
+    background-image: url(../../../images/process/video.png);
+    background-repeat: no-repeat;
+    background-position: left .09rem center;
+    background-size: .27rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+.process-des{
+  padding: 0 .1rem .2rem;
+  margin: 0 .2rem;
+  border-bottom: 1px solid #979797;
+  &.not-border{
+    border: none;
+    padding-bottom: .4rem;
+  }
+  p{
+    margin-top: .08rem;
+    color: #fff;
+    font-size: .15rem;
+  }
+}
+.number{
+  display: block;
+  width: .41rem;
+  height: .41rem;
+  margin: .35rem auto .17rem auto;
+  line-height: .41rem;
+  background: #EF4972;
+  border-radius: .41rem;
+  font-size: .21rem;
+  color: #fff;
+  text-align: center;
+}
+.clean-way{
+  display: -webkit-box;
+  display: box;
+  text-align: center;
+  -webkit-box-pack: justify;
+  box-pack: justify;
+  margin-top: .12rem;
+  font-size: .15rem;
+  img{
+    width: 1.425rem;
+    height: 1.425rem;
+    border-radius: 1.425rem;
+  }
+  .font-english{
+    margin-top: -.03rem;
+  }
+}
+.img-tips{
+  margin-top: .09rem;
+  font-size: .15rem;
+  color: #fff;
+  text-align: center;
+}
+
+.transition-box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom:0;
+  background: #fff;
+  z-index: 9;
+}
+.logo{
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+
+.english-name img{
+  width: .925rem;
+  height: .21rem;
+}
+.china-name{
+  margin-top: .1rem;
+}
+.china-name img{
+  width: 1.905rem;
+  height: .5015rem
+}
+.logo-cross{
+  width: .525rem;
+  height: .525rem;
+}
+.transition-logo{
+  width: 100%;
+  height: 1.28rem;
+  position: relative;
+  margin-top: .1rem;
+
+}
+.logo-cross{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.in-randin, .out-randin{
+  width: .14rem;
+  height: .14rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.transition-logo b{
+  width: .14rem;
+  height: .14rem;
+  position: absolute;
+  top:0;
+  left:0;
+  background: #036eb7;
+  border-radius: .14rem;
+  transition: all .3s cubic-bezier(.05,1.74,.34,.78);
+  -webkit-transition: all .3s cubic-bezier(.05,1.74,.34,.78);
+  opacity: 0;
+}
+.out-randin b{
+  background: #60c0bd;
+  transition: all .6s cubic-bezier(0,.97,.7,1.85);
+  -webkit-transition: all .6s cubic-bezier(0,.97,.7,1.85);
+}

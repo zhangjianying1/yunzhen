@@ -1,0 +1,22 @@
+.activity-record .activity-list:nth-of-type(1){
+  border: none;
+  margin: 0;
+}
+.activity-list {
+  border-top: 1px solid #d2d2d2;
+  margin-top: .1rem;
+  li {
+    border-bottom: 1px solid #d2d2d2;
+  }
+
+}
+
+.activity-watch{
+  text-align: center;
+  .a-w-number{
+    font-size: .13rem;
+    .c-red{
+      font-size: .16rem;
+    }
+  }
+}
